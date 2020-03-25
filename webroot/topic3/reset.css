@@ -1,0 +1,13 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p { /*select multiple elements to reduces browser inconsistencies quickly*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+strong, img, h3, h4, h6, div {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}

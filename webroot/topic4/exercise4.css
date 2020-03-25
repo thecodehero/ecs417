@@ -1,0 +1,60 @@
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+fieldset {
+    margin: 10pt;
+    background-color: lightgreen;
+    border: 2pt solid gray;    
+}
+legend {
+    background-color: green; 
+    font-size: 20pt;   
+    width: 80%;      
+    text-align: center;    
+}
+h1 {
+    color: white;
+    font-family: sans-serif;    
+    
+}
+p {
+    padding-left: 10pt;
+}
+.text {
+    padding-left: 10pt;
+}
+.button {
+    background-color: green;
+    border: 1pt solid black;
+    border-radius: 3pt;    
+    color: white;
+    padding: 5pt;
+    margin: 5pt;    
+    text-align: center;    
+}
+table {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10pt;
+    border-spacing: 10pt;
+}
+
+td {
+    border: 1pt solid green;
+    padding-top: 10pt;
+    padding-bottom: 10pt;        
+}
+#formcheckbox {
+    background-color: white;
+    border: none;
+}
+p {
+    font-family: sans-serif;
+
+}
+#formbuttons {
+    text-align: center;
+}
