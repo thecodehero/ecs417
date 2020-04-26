@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     VALUES ('$fname', '$sname', '$email', '$pass1')";
 
     if ($conn->query($sql) === TRUE) {  
-        echo "Registration successful"
+        echo "Registration successful";
     } 
     else {
         echo "Error: " . $sql . "<br>" . $conn->error;
