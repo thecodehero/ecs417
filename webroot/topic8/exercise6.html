@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <script src="exercise6.js"></script>
+    </head>
+    <body>
+        <form id="registrationForm" class="centered" action="exercise6.php" method="post"> 
+            <label id="Register">User Registration Form</label><br>  
+            <input type="text" class="textfield" id="firstName" name="firstName" placeholder="First Name"><br>           
+            <input type="text" class="textfield" id="lastName" name="lastName" placeholder="Last Name"><br>          
+            <input type="email" class="textfield" id="newEmail" name="newEmail" placeholder="Email Address" required><br>
+            <input type="password" class="textfield" id="newPassword" name="newPassword" placeholder = "Password" required><br>
+            <input type="password" class="textfield" id="confirmPassword" name="confirmPassword" placeholder = "Confirm Password" required><br>
+            <input type="submit" class="textfield" value="Complete Registration" onclick="passwordSame()">
+        </form>
+    </body>
+
+</html>
