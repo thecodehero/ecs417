@@ -34,10 +34,10 @@
                         $title = $row2['title'];
                         echo "<li id=\"archiveDropDownMenu\" style=\"display:block\"><a href=\"#$title\">$title</a></li>";                                            
                     } 
-                    echo "</ul>                      
+                    echo "</ul>";                      
                 }                                                   
             }
-            ";
+            
                       
         }
 
