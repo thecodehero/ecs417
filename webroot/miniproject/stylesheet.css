@@ -1,0 +1,358 @@
+
+header {
+    background-color: #728cff;
+    height: 4em;    
+    width: 100%;        
+}
+h1 {
+    font-family: sans-serif;
+    padding-top: 5pt;   
+    padding-left: 5pt;
+    color: white;
+    font-size: 30pt;
+    float: left;
+    text-decoration: none;
+}
+h1 a {
+    text-decoration: none;
+    color: white
+}
+h1 a:hover {
+    color: darkblue;
+}
+nav ul {
+     margin: 5pt;
+     margin-right: 15pt;
+     float: right;
+     clear: right;
+}
+
+nav ul li {        
+    float: left;       
+    display: block;  
+    padding: 10pt;     
+}
+nav ul li a {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 18pt;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: darkblue;
+}
+article {
+    width: 50em;
+    min-height: 30em;    
+    background-color: white;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    color: black;
+    margin-left: 5em;
+    float: left;
+}
+aside {       
+    background-color: white;
+    min-height: 30em;
+    width: 18em;
+    margin-right: 20pt;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    float: right;
+    
+}
+#middle {
+    margin-top: 40pt;
+    margin-bottom: 20pt; 
+    min-height: 30em;
+    overflow: auto;
+}
+body {
+    background-color: lightgray;
+}
+footer {    
+    max-width: 100%;
+    height:5em; 
+    background-color: #3c53b9;
+}  
+
+footer ul li {    
+    float: left;
+    display: block;    
+    padding-top: 25pt;
+    padding-left: 20pt; 
+}
+footer ul li a {    
+    font-size: 12pt;
+    font-family: helvetica;    
+    color: white;    
+    text-decoration: none; 
+}
+footer ul li a:hover {
+    color: lightblue; 
+}
+#copyright {     
+    padding-top: 10pt;       
+    font-family: sans-serif;
+    text-align: center;    
+    color: white;
+    font-size: 10pt;
+    background-color: #3c53b9;  
+    padding-bottom: 10pt;
+}
+h2 {    
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20pt;
+    border-bottom: solid 1pt black;
+    padding: 10pt;
+    margin-left: 15pt;
+    margin-right: 15pt;
+}
+section {
+    font-size:14pt;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 15pt;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#login {    
+    padding-top: 10pt;
+    width:50px;
+    height:50px;    
+    margin-left: 50pt;
+    
+}
+#email {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    font-size: 20pt;
+    border:none;
+}
+#password {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    font-size: 20pt;
+    border:none;
+}
+.loginLabel {
+    font-family: sans-serif;
+    font-size: 16pt;
+
+}
+.submit {    
+    background-color: #3c53b9;
+    color: white;
+    min-width: 8em;
+    height: 2em;       
+    border: none;
+    margin-top: 10pt;    
+}
+.submit:hover {
+    background-color: darkblue;
+}
+#blogTitle {
+    margin-left: 15pt;  
+    font-size: 16pt;      
+}
+.blogForm {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    margin-left: 15pt;
+    width: 90%;    
+}
+.newPostLabel {
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 15pt;
+}
+#createPost {
+    margin-bottom: 10pt;
+}
+#blogContent {
+    min-height: 25em;
+    font-family: sans-serif;
+    font-size: 16pt;    
+}
+#postButton {
+    margin-left: 15pt;
+    margin-bottom: 15pt;
+    
+}
+#clearButton {
+    margin-left: 10pt;
+
+}
+#loginLink {
+    display: block;
+    background-color: #3c53b9;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20pt;
+    margin: 10pt;    
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    text-align: center;
+    border-radius: 5pt;
+}
+#loginLink:hover {
+    background-color: darkblue;
+}
+#logoutForm {
+    margin-top: 5em;    
+    text-align: center;    
+}
+/*styles for viewBlog.php*/
+.viewPost {
+    font-size: 16pt;
+    font-family: sans-serif;    
+    margin-left: 15pt;
+}
+.viewTitle {
+    font-size: 30pt;
+    font-family: sans-serif;
+    margin-left: 15pt;
+}
+.viewDateTime {
+    margin-right: 15pt;
+    color: #3c53b9;
+    text-align: right;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+hr.viewHR {
+    border: 3pt solid darkblue;     
+}
+/*styles for registration.html*/
+
+.centered {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  } 
+.textfield {
+    margin-top: 10pt;
+    font-size: 16pt;
+    width: 100%;
+}
+#registrationForm {
+    background-color: white;
+    padding: 20pt; 
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); 
+}
+#email {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    font-size: 20pt;
+    border:none;
+}
+#password {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    font-size: 20pt;
+    border:none;
+}
+#registerbtn {
+    width: 100%;
+    font-size: 16pt;
+
+}
+#lblRegister {
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h3 { /*styles for h3*/
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 15pt;
+
+}
+/*styles for comment section in viewBlog.php*/
+#formComment { 
+    margin-left: 15pt;    
+}
+#inputComment {
+    font-size: 12pt;
+    font-family: sans-serif;
+    width: 90%;
+    min-height: 6em;
+}
+#commentMessage {
+    font-size: 12pt;
+    font-family: sans-serif;    
+    padding: 10 0 10 15;
+    margin-top: 10pt;
+    margin-left: 15pt;
+    width: 90%;
+}
+#commentName {
+    font-size: 12pt;    
+    font-weight: bold; 
+    font-family: sans-serif;
+    padding-left: 15pt;
+    padding-top: 10pt;       
+}
+/*style for delete comment button*/
+#deleteCommentBtn {   
+    margin-left: 15pt;
+}
+/*style for delete comment button*/
+#deletePostBtn {
+    margin-left: 15pt;
+}
+/*styles for blog archive menu to organise posts by month.*/
+#archiveList {
+    padding-bottom: 10pt;
+}
+.archiveMenu {
+    margin-left: 30pt;
+    display: block;  
+    background-color: white;  
+    border: none;
+    font-size: 16pt;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;    
+}
+#archiveDropDownMenu {    
+    margin-left: 40pt; 
+    z-index: 1;
+    
+}
+#archiveDropDown {
+    display: none;
+    margin-bottom: 20pt;
+}
+
+#archiveDropDownMenu a {
+    text-decoration: none;    
+    color: black;
+    font-size: 12pt;
+    font-family: sans-serif;   
+}
+.show {
+    display:block;
+  }
+.hide {
+  display: none;
+}
+/*style for button to return to login.html*/
+#loginlink {
+    font-size: 18pt;
+    
+}
+#loginlink a {
+    color: white;
+    text-decoration: none;
+}
+/*styles for table*/ 
