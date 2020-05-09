@@ -330,8 +330,7 @@ h3 { /*styles for h3*/
     
 }
 #archiveDropDown {
-    display: none;
-    margin-bottom: 20pt;
+    display: none;    
 }
 
 #archiveDropDownMenu a {
